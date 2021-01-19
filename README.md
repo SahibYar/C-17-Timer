@@ -1,5 +1,5 @@
 # C-17-Timer
-JavaScript Like **timer** Header only C++17 LIbarary using `std::thread` and `std::chrono` without polling.
+JavaScript Like thread-safe Header only C++17 **Timer** Library using `std::thread` and `std::chrono` without polling.
 
 ## Features
 1. It takes `const std::chrono::duration<Rep, Period> &duration` as a duration so by default supports all the [std::chrono::durations](https://en.cppreference.com/w/cpp/chrono/duration)
